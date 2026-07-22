@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below (concept DOI); for the mathematics, cite the paper under preferred-citation."
+title: "Production balances and a normalized production diagnostic for invariant measures of the stochastic gCLM (a=-2) — paper and verification package"
+authors:
+  - family-names: Jumagulov
+    given-names: Rifat
+    email: jum.rifm@gmail.com
+    affiliation: "Independent researcher"
+version: v1.14
+doi: 10.5281/zenodo.21492681
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21492681
+    description: "Concept DOI (all versions)"
+license: MIT
+repository-code: "https://github.com/rifmj/sgclm-cascade"
+keywords:
+  - generalized Constantin-Lax-Majda equation
+  - De Gregorio model
+  - stochastic PDE
+  - invariant measure
+  - enstrophy cascade
+  - flux law
+  - production balance
+  - exact verification
+preferred-citation:
+  type: article
+  title: "Production balances and a normalized production diagnostic for invariant measures of the stochastic gCLM (a=-2): Galerkin-level identities and a large-viscosity limit"
+  authors:
+    - family-names: Jumagulov
+      given-names: Rifat
+  year: 2026

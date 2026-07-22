@@ -1,0 +1,4 @@
+# Reference environment: Python 3.13.13
+numpy==2.4.6
+scipy==1.17.1
+sympy==1.14.0

@@ -1,0 +1,23 @@
+{
+  "title": "Production balances and a normalized production diagnostic for invariant measures of the stochastic gCLM (a=-2): Galerkin-level identities and a large-viscosity limit — paper and verification package",
+  "upload_type": "software",
+  "description": "<p>Paper (30 pp) and exact-verification package for <em>Production balances and a normalized production diagnostic for invariant measures of the stochastically forced generalized Constantin&ndash;Lax&ndash;Majda&ndash;De Gregorio equation at a = &minus;2</em> (the enstrophy-conserving case).</p><p>The paper derives, at each fixed Galerkin truncation, a family of exact stationary balances from the invariant-measure identity E&mu;[LF] = 0: an enstrophy balance, a spectral enstrophy-flux law equivalent to UV-concentration of the dissipation measure, and a production balance for the palinstrophy production functional carried exactly by the projected inertial pairing (not the full functional, from which it differs by an explicit Galerkin defect). This defines a normalized production diagnostic &theta;. The main theorem is a large-viscosity limit: &theta;, &theta;_M &rarr; &theta;_G(shape) + O(sqrt(B0) &nu;^(-3/2)) for every invariant measure of the Galerkin system, with the exact Gaussian value &theta;_G = 2017/2484 for the flat forcing band [1,4]. A scale-blindness lemma shows &theta; alone cannot control the low-mode dissipation.</p><p>This archive contains the LaTeX source and compiled PDF (paper/) together with the verification package (anc/): the seven CAS certificates (independent symbolic certification of every load-bearing algebraic identity), the pseudo-spectral solver and its 12-identity validator, the campaign/analysis/figure scripts, the committed campaign data, a single-command <code>make verify</code>, a mutation-based corruption battery (<code>make verify-mutations</code>), pinned dependency versions, and chained SHA-256 checksums. The CAS certificates are an independent verification layer; the proofs are complete in the paper. The manuscript underwent fourteen numbered rounds of independent review, including cross-model audits.</p>",
+  "creators": [
+    {
+      "name": "Jumagulov, Rifat",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "generalized Constantin-Lax-Majda equation",
+    "De Gregorio model",
+    "stochastic PDE",
+    "invariant measure",
+    "enstrophy cascade",
+    "flux law",
+    "production balance",
+    "exact verification"
+  ]
+}

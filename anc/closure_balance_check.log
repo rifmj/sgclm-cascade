@@ -1,0 +1,11 @@
+# closure_balance_check.log -- receipts (2026-07-14, log #23)
+# nu=10 SNR diagnosis (3 runs incl. dt/4):
+nu=10.0 dt=base/1 seed=42: E[I]=+4.4345e-05+-1.1e-06  nu*E[Y]=-7.0402e-05+-1.6e-04  Y_rms=1.918e-03
+nu=10.0 dt=base/4 seed=43: E[I]=+4.4089e-05+-1.0e-06  nu*E[Y]=+8.7662e-05+-1.6e-04  Y_rms=1.904e-03
+nu=10.0 dt=base/4 seed=44: E[I]=+4.4485e-05+-9.5e-07  nu*E[Y]=-3.6177e-05+-1.6e-04  Y_rms=1.911e-03
+# => direct-C1 estimator SNR ~ 1/430 at nu=10: "sign-mixed C1" (theta_extend.py) = guaranteed noise.
+# nu=2 affirmative closure (T = 20000 relaxation times = 10000 time units at nu=2;
+# NB the raw line's 'tau' suffix below is mislabeled -- 10000.0 is in TIME UNITS):
+CLOSURE nu=2.0 T=10000.0tau n=200000: E[I]=+1.11241e-03+-7.9e-06   -nu*E[Y]=+1.17296e-03+-1.1e-04
+ratio E[I]/(-nu E[Y]) = +0.9484  z(diff)=-0.54
+theta(I)=+0.81207  theta(-C1)=+0.85627
